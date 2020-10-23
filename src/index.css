@@ -1,0 +1,53 @@
+html {
+  font-size: 12px;
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Hiragino Sans GB, Microsoft YaHei, Arial;
+  word-break: break-word;
+  text-rendering: optimizeLegibility;
+  color: #333;
+
+}
+body {
+  word-break: break-word;
+  overflow-y: scroll;
+  font-size: 12px;
+  line-height: normal;
+  background-color: #f4f5f5;
+}
+div {
+  display: block;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+a,
+button,
+input {
+  margin: initial;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  
+  margin-top: 60px;
+}
